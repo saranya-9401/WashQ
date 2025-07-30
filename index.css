@@ -74,13 +74,13 @@ body {
   padding-top: 300px;
 }
 .hero h1{
-  color: #333333(243, 23, 23);
+  color: white;
   text-align: center;
   padding-bottom: 20px;
   
 }
 .hero p{
-  color: #333333(243, 23, 23);
+  color: white;
   text-align: center;
   padding-bottom: 20px
 }
@@ -112,7 +112,7 @@ body {
   background: #ffffff;
   border: 1px solid #ddd;
   border-radius: 15px;
-  width: 320px;
+  width: 300px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   transition: transform 0.3s ease;
