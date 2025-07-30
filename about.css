@@ -1,0 +1,277 @@
+/* Reset and base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf7f7;
+  color: #4a4a4a;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:blue; /* or match your site color */
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+body {
+  margin: 0;
+  padding-top: 50px;
+}
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Video Section */
+.video-section video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 5px solid #ddd;
+}
+
+/* Description Section */
+.description-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.description-section h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.description-section p {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 15px;
+}
+/* Welcome Section */
+.washq-welcome-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+}
+
+.welcome-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.welcome-text {
+  flex: 1;
+}
+
+.welcome-text h2 {
+  font-size: 30px;
+  color: #1c2c52;
+  margin-bottom: 20px;
+}
+
+.welcome-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.welcome-image {
+  flex: 1;
+  text-align: center;
+}
+
+.welcome-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Our Promise Section */
+.our-promise-section {
+  background-color: #f7fbff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  color: #1c2c52;
+  margin-bottom: 40px;
+}
+
+.logo-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.logo-box {
+  max-width: 250px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.logo-box img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.logo-box h4 {
+  font-size: 18px;
+  color: #0056b3;
+  margin-bottom: 10px;
+}
+
+.logo-box p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Achievement Section */
+.achievement-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+}
+
+.achievement-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.achievement-img img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.achievement-text {
+  flex: 1;
+}
+
+.achievement-text h2 {
+  font-size: 32px;
+  color: #1c2c52;
+  margin-bottom: 20px;
+}
+
+.achievement-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 15px;
+}
+.footer {
+  background-color:rgb(7, 7, 179);
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.footer-column h3,
+.footer-column h4 {
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #d0e7ff;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #ffffff;
+}
+
+.footer-column p {
+  margin: 5px 0;
+}
+
+.social-icons a img {
+  width: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #ffffff33;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #c0dfff;
+}
+
